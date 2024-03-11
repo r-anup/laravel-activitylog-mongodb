@@ -4,9 +4,9 @@ namespace Spatie\Activitylog\Test\Models;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
-use Jenssegers\Mongodb\Eloquent\Model;
-use Jenssegers\Mongodb\Eloquent\Builder;
-use Jenssegers\Mongodb\Relations\MorphTo;
+use MongoDB\Laravel\Eloquent\Model;
+use MongoDB\Laravel\Eloquent\Builder;
+use MongoDB\Laravel\Relations\MorphTo;
 use Spatie\Activitylog\Contracts\Activity as ActivityContract;
 
 class Activity extends Model implements ActivityContract
