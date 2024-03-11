@@ -45,7 +45,7 @@
         "illuminate/config": "^6.0 || ^7.0 || ^8.0",
         "illuminate/database": "^6.0 || ^7.0 || ^8.0",
         "illuminate/support": "^6.0 || ^7.0 || ^8.0",
-        "jenssegers/mongodb": "^3.6"
+        "mongodb/laravel-mongodb": "^4.1"
     },
     "require-dev": {
         "ext-json": "*",
