@@ -3,9 +3,9 @@
 namespace Spatie\Activitylog\Contracts;
 
 use Illuminate\Support\Collection;
-use Jenssegers\Mongodb\Eloquent\Builder;
-use Jenssegers\Mongodb\Eloquent\Model;
-use Jenssegers\Mongodb\Relations\MorphTo;
+use MongoDB\Laravel\Eloquent\Builder;
+use MongoDB\Laravel\Eloquent\Model;
+use MongoDB\Laravel\Relations\MorphTo;
 
 interface Activity
 {
