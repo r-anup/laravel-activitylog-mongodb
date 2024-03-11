@@ -4,7 +4,7 @@ namespace Spatie\Activitylog\Test;
 
 use Carbon\Carbon;
 use Illuminate\Support\Collection;
-use Jenssegers\Mongodb\Eloquent\SoftDeletes;
+use MongoDB\Laravel\Eloquent\SoftDeletes;
 use Spatie\Activitylog\Models\Activity;
 use Spatie\Activitylog\Test\Models\Article;
 use Spatie\Activitylog\Test\Models\Issue733;
