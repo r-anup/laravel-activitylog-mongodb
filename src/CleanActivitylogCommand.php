@@ -5,7 +5,7 @@ namespace Spatie\Activitylog;
 use Carbon\Carbon;
 use DateTime;
 use Illuminate\Console\Command;
-use Jenssegers\Mongodb\Eloquent\Builder;
+use MongoDB\Laravel\Eloquent\Builder;
 
 class CleanActivitylogCommand extends Command
 {
